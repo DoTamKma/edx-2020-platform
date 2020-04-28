@@ -1,0 +1,17 @@
+TOPPY_WELCOME_MESSAGE: "The place for all your online learning"
+TOPPY_PRIMARY_COLOR: "#3b85ff" # cool blue
+
+# Footer links are dictionaries with a "title" and "url"
+# To remove all links, write:
+# TOPPY_FOOTER_NAV_LINKS: []
+# TOPPY_FOOTER_LEGAL_LINKS: []
+TOPPY_FOOTER_NAV_LINKS:
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
+TOPPY_FOOTER_LEGAL_LINKS:
+    - title: "Terms of service"
+      url: "/tos"
+    - title: "TOPPY theme for Open edX"
+      url: "https://github.com/gstearmit/toppy-edx-theme"
